@@ -22,7 +22,7 @@ public abstract class EnhancedBillingSystem extends JFrame implements ActionList
     private JTextField itemField, priceField, quantityField, discountField, totalField, gstField, deliveryDateField;
     private JButton calculateButton, clearButton, addItemButton;
     private JTextArea itemListArea;
-    private final double GST_RATE = 0.58; // GST rate as a constant
+    private final double GST_RATE = 0.52; // GST rate as a constant
     private List<String> itemList;
     private List<Double> priceList;
 
